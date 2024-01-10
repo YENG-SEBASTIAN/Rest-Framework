@@ -1,6 +1,7 @@
 from rest_framework import serializers, fields
 import datetime
 
+
 from .models import Person
 
 class PersonOrPatientSerializer(serializers.ModelSerializer):
