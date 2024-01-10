@@ -7,7 +7,6 @@ from django_countries.data import COUNTRIES
 from django_countries.fields import CountryField
 
 
-
 class PatientForm(forms.ModelForm):
     class Meta:
 
