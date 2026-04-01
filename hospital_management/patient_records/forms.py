@@ -19,8 +19,8 @@ class PatientForm(forms.ModelForm):
             'gender', 
             'nationality',
             'address',
-            # 'created_on',
-            # 'created_by',
+            'created_on',
+            'created_by',
         ]
 
 
